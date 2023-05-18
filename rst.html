@@ -15,36 +15,9 @@
             <img src="https://www.verywellfit.com/thmb/XoYUSTc0dd_4zpbsp6G_iBzh45A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Plant-baseddietjenifoto-73193eabbdc9402ab3bc535562e2ed7e.jpg" width="300px" height="150px" hidden />
             <img src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/ts/20220615063013/ri/750/src/images/Article_Images/ImageForArticle_22673_16552890053056602.jpg" width="300px" height="150px" hidden />
             
-            <script type="text/javascript">
-                var currentImageIndex = -1,
-                    maxImageIndex = 0,
-                    images = [],
-                    changeInterval = 2000;
-
-                var setUp = function() {
-                    images = document.images;
-                    maxImageIndex = images.length;
-                    currentImageIndex = 0;
-                };
-
-                var changeBanner = function() {
-                    var i;
-            
-                    currentImageIndex = (currentImageIndex >= maxImageIndex - 1) ? 0 : currentImageIndex += 1;
-            
-                    for (i = 0; i < maxImageIndex; i += 1) {
-                        images[i].hidden = (i !== currentImageIndex);
-                    }
-                };
-            
-                window.onload = function() {
-                    setUp();
-                    images[currentImageIndex].hidden = false; 
-                    setInterval(changeBanner, changeInterval); 
-                };
-            </script>
             <br></br>
             <button onclick="window.location.href = 'main.html';">Get Started!</button>
-        </div>
-    </body>
+            </div>
+            </body>
+        <script src="script.js"> </script>
 </html>
