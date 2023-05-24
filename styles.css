@@ -17,9 +17,16 @@ nav {
     padding:35px 5%;
 }
 
+.navBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 nav .name {
     font-weight: 700;
     font-size: 40px;
+    width:100%;
 }
 
 nav ul {
@@ -42,8 +49,38 @@ nav ul li:hover {
     background-color: rgba(255, 255, 255);
 }
 
-.row {
-    display:flex;
-    justify-content: space-between;
+.container {
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
+    height: 100vh;
+    margin-left: 0;
+}
+
+.container .text {
+    padding-right: 50px;
+    margin-left: 0;
+    margin-right: auto;
+}
+.text h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.text button {
+    width: 125px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-style: none;
+    color:red;
+    font-size: 12px;
+    font-weight:500;
+}
+
+.text button:hover {
+    background-color: rgb(255, 213, 128);
 }
