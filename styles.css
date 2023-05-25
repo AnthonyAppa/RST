@@ -89,6 +89,7 @@ nav ul li:hover {
     border-radius: 50%;
     width:400px;
     height:400px;
+    object-fit: cover;
 }
 
 .black-bar {
