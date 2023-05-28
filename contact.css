@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(144, 238, 144);
 }
 
 
@@ -96,6 +96,10 @@ cursor: pointer;
 
 button:hover {
 background-color: #45a049;
+}
+
+.social-media {
+    text-align: center;
 }
 
 .social-media ul {
