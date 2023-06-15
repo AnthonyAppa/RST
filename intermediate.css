@@ -5,10 +5,10 @@
   }
 
 .cool-colors {
-background: linear-gradient(to right, rgba(0, 0, 0, 0.301), rgba(255, 194, 153, 0.80));
-width:100%;
-height:100%;
-position: absolute;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.301), rgba(255, 194, 153, 0.80));
+    width:100%;
+    height:100%;
+    position: absolute;
 }
 
 body {
@@ -20,71 +20,74 @@ body {
 }
 
 .name {
-font-weight: 700;
-font-size: 40px;
-width:20%;
-height: 20%;
-text-align:center;
-position: absolute;
-top:0;
-left:0;
-color:white;
+    font-weight: 700;
+    font-size: 40px;
+    width:20%;
+    height: 20%;
+    text-align:center;
+    position: absolute;
+    top:0;
+    left:0;
+    color:white;
 }
 
 .navBar {
-position: absolute;
-top: 0;
-right: 0;
-font-size:25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size:25px;
 }
 
 nav .name {
-font-weight: 700;
-font-size: 40px;
-width:40%;
-height: 20%;
+    font-weight: 700;
+    font-size: 40px;
+    width:40%;
+    height: 20%;
 }
 
 nav ul {
-display:flex;
-list-style: none;
+    display:flex;
+    list-style: none;
 }
 
 nav ul li {
-padding: 4px 10px;
+    padding: 4px 10px;
 }
 
 nav ul li a {
-color:black;
-font-weight: 500;
-font-size: 15px;
-text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 nav ul li:hover {
-background-color: rgba(255, 255, 255);
+    background-color: black;
 }
 
 .container {
-position: relative;
-top: 60%;
-transform: translateY(-400%);
-text-align: center;
-display: flex;
-align-items: center;
-margin-bottom: 40px;
-justify-content: center;
-width:80%;
+    position: relative;
+    top: 60%;
+    transform: translateY(-400%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+    width:80%;
 }
 .image {
-width: 100px;
-height: 100px;
-margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
 }
 .text {
-font-size: 20px;
-margin-left: 20px;
-width:7%;
+    font-size: 20px;
+    margin-left: 20px;
+    width:7%;
+    text-decoration: none;
+    color:white;
+    text-align: center;
 }
 
 button{
@@ -97,5 +100,3 @@ button{
 button:hover {
     background-color: rgba(255, 194, 153, 0.80);
 }
-  
-
