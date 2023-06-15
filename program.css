@@ -107,3 +107,7 @@ nav ul li:hover {
   font-size: 15px;
   width:50%;
 }
+
+.program button:hover {
+  background-color: rgb(236, 62, 9);
+}
