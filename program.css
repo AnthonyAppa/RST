@@ -101,13 +101,17 @@ nav ul li:hover {
 }
 
 .program button {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: center;
-  font-size: 15px;
-  width:50%;
+  width: 125px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border-style: none;
+  font-size: 12px;
+  font-weight:500;
 }
 
 .program button:hover {
-  background-color: rgb(236, 62, 9);
+  background-color: lightblue;
 }
