@@ -4,8 +4,19 @@
     box-sizing: border-box;    
   }
 
+.cool-colors {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.301), rgba(165, 255, 153, 0.80));
+  width:100%;
+  height:100%;
+  position: absolute;
+}
+
 body {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.301), rgba(165, 255, 153, 0.80));
+    background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/06/20/12/istock-908985656-0.jpg?quality=75&width=990&crop=4%3A3%2Csmart&auto=webp");
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    background-size: cover;
 }
 
 .name {
@@ -17,6 +28,7 @@ body {
   position: absolute;
   top:0;
   left:0;
+  color:white;
 }
 
 .navBar {
@@ -56,7 +68,7 @@ nav ul li:hover {
 .container {
   position: relative;
   top: 60%;
-  transform: translateY(170%);
+  transform: translateY(-400%);
   text-align: center;
   display: flex;
   align-items: center;

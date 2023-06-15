@@ -4,8 +4,19 @@
     box-sizing: border-box;    
   }
 
+.cool-colors {
+background: linear-gradient(to right, rgba(0, 0, 0, 0.301), rgba(255, 194, 153, 0.80));
+width:100%;
+height:100%;
+position: absolute;
+}
+
 body {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.301), rgba(255, 194, 153, 0.80));
+    background-image: url("https://www.jefit.com/wp/wp-content/uploads/2022/08/muscle-hand-male-healthy-arm-1024x683.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    background-size: cover;
 }
 
 .name {
@@ -17,6 +28,7 @@ text-align:center;
 position: absolute;
 top:0;
 left:0;
+color:white;
 }
 
 .navBar {
@@ -56,7 +68,7 @@ background-color: rgba(255, 255, 255);
 .container {
 position: relative;
 top: 60%;
-transform: translateY(170%);
+transform: translateY(-400%);
 text-align: center;
 display: flex;
 align-items: center;
