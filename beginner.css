@@ -4,14 +4,14 @@
     box-sizing: border-box;    
   }
 
-.cool-colors {
+.cool-colors { /*This will make it so that the color goes from black to green from left to right*/
   background: linear-gradient(to right, rgba(0, 0, 0, 0.301), rgba(165, 255, 153, 0.80));
   width:100%;
   height:100%;
   position: absolute;
 }
 
-body {
+body { /*This makes the image the background of the whole page*/
     background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/06/20/12/istock-908985656-0.jpg?quality=75&width=990&crop=4%3A3%2Csmart&auto=webp");
     background-repeat: no-repeat;
     width:100%;
@@ -19,7 +19,7 @@ body {
     background-size: cover;
 }
 
-.name {
+.name { /*This is the tittle and makes it in the top left of the page and always there, this also makes it bolded*/
   font-weight: 700;
   font-size: 40px;
   width:20%;
@@ -31,7 +31,7 @@ body {
   color:white;
 }
 
-.navBar {
+.navBar { /*Same navbar as welcome page*/
   position: absolute;
   top: 0;
   right: 0;
@@ -65,7 +65,7 @@ nav ul li:hover {
   background-color: black;
 }
 
-.container {
+.container { /*moves the container up to the center of the page, and aligns everything in the center*/
   position: relative;
   top: 60%;
   transform: translateY(-400%);
@@ -76,12 +76,14 @@ nav ul li:hover {
   justify-content: center;
   width:80%;
 }
-.image {
+
+.image { /*Gives the properties of the images*/
   width: 100px;
   height: 100px;
   margin-right: 20px;
 }
-.text {
+
+.text { /*Gives propety to the text and removes any elements from the <a> elements*/
   font-size: 20px;
   margin-left: 20px;
   width:7%;
@@ -89,13 +91,13 @@ nav ul li:hover {
   color:white;
 }
 
-button{
+button{ /*Changes the appearence of the button*/
   position: fixed;
   bottom: 20px;
   left: 20px;
   width:100px;
 }
 
-button:hover {
+button:hover { /*Changes the color of the button when hovered*/
   background-color: rgba(165, 255, 153, 0.80);
 }

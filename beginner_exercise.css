@@ -1,4 +1,4 @@
-* {
+* { /*Eveything same except the last two elements*/
     padding:0;
     margin:0;
     box-sizing: border-box;    
@@ -92,7 +92,7 @@ button:hover {
   background-color: rgba(165, 255, 153, 0.80);
 }
 
-.info_title {
+.info_title { /*Puts the title of the info ontop of the description by transforming it up and moving puts a margin so that it doesn't interfere with the picutres*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +104,7 @@ button:hover {
   color:white;
 }
 
-.info {
+.info { /*Moves the info underneath the info title and puts a margin so that it doesn't interfere with the picutres*/
   display: flex;
   align-items: center;
   justify-content: center;
